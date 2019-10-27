@@ -1,0 +1,68 @@
+body{
+    display: 100vh;
+    background-color: rgba(128, 128, 128, 0.76);
+}
+
+#display-recipe{
+    display: grid block;
+    grid-gap: 20px;
+    grid-template-columns: 100px 100px 100px;
+    /* grid-auto-rows:  100px 100px 100px; */
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%);
+    min-width: 500px;
+    
+    }
+
+    
+#recipes{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 255, 0, 0.582); 
+    }
+
+.ingredients{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#recipes:hover{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: rgba(238, 238, 238, 0.37);
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.input-button{
+    display: grid;
+    max-width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    /* margin: 20px;  */
+}
+
+button{
+    /* margin: 30px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    size: 100px;
+    background: transparent;
+    border: 1px solid rgba(127, 127, 230, 0.87);
+
+}
+
+
+input{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
