@@ -7,7 +7,6 @@ body{
     display: grid block;
     grid-gap: 20px;
     grid-template-columns: 100px 100px 100px;
-    /* grid-auto-rows:  100px 100px 100px; */
     position: absolute;
     top: 110px;
     left: 50%;
@@ -52,7 +51,6 @@ img{
 }
 
 button{
-    /* margin: 30px; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     size: 100px;
     background: transparent;
