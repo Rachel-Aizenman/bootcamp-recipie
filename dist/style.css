@@ -4,9 +4,9 @@ body{
 }
 
 #display-recipe{
-    display: grid block;
-    grid-gap: 20px;
-    grid-template-columns: 100px 100px 100px;
+    display: inline-grid;
+    grid-gap: 30px;
+    grid-template-columns: 300px 300px 300px;
     position: absolute;
     top: 110px;
     left: 50%;
