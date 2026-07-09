@@ -13,4 +13,8 @@ const fetchIngredient = function(){
     const ingredients = allIngredients.split(',') 
     const firstIngedient = ingredients[0] 
     console.log(firstIngedient)
+    console.log('1')
+    console.log('2')
+    console.log('3')
+    console.log('4')
  }
